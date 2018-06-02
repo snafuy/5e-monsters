@@ -101,7 +101,7 @@
 			sources.all.forEach(function (sourceName) {
 				vm.filters.source[sourceName] = (sourceTypes === "all");
 			});
-			
+
 			switch (sourceTypes) {
 				// non-core WotC products
 				case "official":
@@ -125,7 +125,7 @@
 					[
 						"Basic Rules v1",
 						"Monster Manual",
-						// "Mordenkainen's Tome of Foes",
+						"Mordenkainen's Tome of Foes",
 						"Player's Handbook",
 						"Volo's Guide to Monsters",
 					].forEach(function (sourceName) {
@@ -135,14 +135,19 @@
 				// non-WotC products
 				case "3rdparty":
 					[
+						"Critter Compendium",
 						"Demon Cults & Secret Societies",
 						"Fifth Edition Foes",
 						"Monster Module",
 						"Monster-A-Day",
+						"Monsters of the Guild",
 						"Monsters of the Orient",
+						"Nerzugal's Dungeon Master Toolkit 2",
 						"Nerzugal's Extended Bestiary",
 						"Primeval Thule Campaign Setting",
 						"Primeval Thule Gamemaster's Companion",
+						"Quests of Doom Volume 1",
+						"Quests of Doom Volume 2",
 						"Tome of Beasts",
 						"Ultimate Bestiary Revenge of the Horde",
 					].forEach(function (sourceName) {
